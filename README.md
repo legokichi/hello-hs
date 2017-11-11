@@ -15,7 +15,14 @@ hoogle --version
 hoogle generate
 ```
 
-## watch build
+## ghc extentions
+* https://downloads.haskell.org/~ghc/master/users-guide/glasgow_exts.html
+* https://github.com/shiatsumat/wiwinwlh-jp/wiki/言語拡張
+
+## build
+
 ```sh
+stack build
 stack build --fast --file-watch
+stack exec hello-hs-exe
 ```
